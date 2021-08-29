@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon app.js"
+  },
+  "name": "crash-course",
+  "version": "1.0.0",
+  "main": "files.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
