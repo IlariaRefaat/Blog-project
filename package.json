@@ -5,7 +5,7 @@
   },
   "name": "crash-course",
   "version": "1.0.0",
-  "main": "files.js",
+  "main": "App.js",
   "directories": {
     "doc": "docs"
   },
