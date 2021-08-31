@@ -1,0 +1,15 @@
+<html>
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <div class="weather content">
+      <h2>Temprature description of the week</h2>
+      <ul>
+        <% weatherList.forEach(item => {%>
+        <li><%= item.date %> : <%= item.weatherDescription %></li>
+        <% }) %>
+      </ul>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
